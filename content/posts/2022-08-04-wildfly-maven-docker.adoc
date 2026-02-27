@@ -57,7 +57,7 @@ Let's build a `wildfly-app` image from this Dockerfile and run it locally:
 
 [source,bash]
 ----
-docker build -t wildlfy-app .
+docker build -t wildfly-app .
 docker run -p 8080:8080 wildfly-app
 ----
 
